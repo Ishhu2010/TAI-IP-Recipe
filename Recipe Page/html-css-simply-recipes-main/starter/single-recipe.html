@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tag Template</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <!-- -----nav---- -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <!-- --------header---------- -->
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipes">
+
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+
+      <!-- -----links------ -->
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="tags.html" class="nav-link">Tags</a>
+        <a href="recipes.html" class="nav-link">Recipes</a>
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn">Contact</a>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+  <!-- -------end of nav------ -->
+  <!-- ---main-- -->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/recipe-4.jpeg" alt="Shahi Panner" class="img recipe-hero-img
+      ">
+        <article>
+          <h2>Special Shahi</h2>
+          <p>Shahi Paneer is a popular North Indian dish made with paneer (Indian cottage cheese) cooked in a rich,
+            creamy gravy. The gravy is typically made with a blend of tomatoes, onions, cashews, and various aromatic
+            spices like cardamom, cinnamon, and cloves. It's known for its luxurious texture and mildly sweet, flavorful
+            taste, making it a favorite among vegetarians and non-vegetarians alike. Shahi Paneer is often served with
+            naan, rice, or roti, making it a delightful and satisfying meal.</p>
+          <!-- recipe icon -->
+          <div class="recipe-icons">
+            <!-- single recipe icons -->
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>30 min.</p>
+            </article>
+            <!-- single recipe icons -->
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>Cook time</h5>
+              <p>15 min.</p>
+            </article>
+            <!-- single recipe icons -->
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>servings</h5>
+              <p>6 servings.</p>
+            </article>
+          </div>
+          <!-- recipe tag -->
+          <div class="recipe-tags">
+            Tags : <a href="tag-template.html">beef</a>
+            <a href="tag-template.html">breakfast</a>
+            <a href="tag-template.html">Panner</a>
+            <a href="tag-template.html">food</a>
+          </div>
+          <!-- end of recipe tag -->
+          <!-- end of recipe icon -->
+        </article>
+      </section>
+      <!-- recipe content -->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+           <div class="single-instruction">
+            <header>
+              <p>step 1</p>
+              <div></div>
+            </header>
+            <p>Prepare the gravy: Blend tomatoes, onions, cashews, and spices into a smooth paste.</p>
+           </div>
+          <!-- single instruction -->
+           <div class="single-instruction">
+            <header>
+              <p>step 2</p>
+              <div></div>
+            </header>
+            <p>Cook the paste: Sauté the paste in oil or ghee until it releases oil and turns aromatic.</p>
+           </div>
+          <!-- single instruction -->
+           <div class="single-instruction">
+            <header>
+              <p>step 3</p>
+              <div></div>
+            </header>
+            <p>Add paneer: Add paneer cubes to the cooked paste, along with cream and water, then simmer.</p>
+           </div>
+          <!-- single instruction -->
+           <div class="single-instruction">
+            <header>
+              <p>step 4</p>
+              <div></div>
+            </header>
+            <p>Garnish and serve: Garnish with fresh cream and cilantro, and serve with naan or rice.</p>
+           </div>
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredients">
+              Paneer - 250g, cubed, Tomatoes - 2, chopped
+            </p>
+            <p class="single-ingredients">
+              Onion - 1, chopped, Cashews - 10-12, soaked
+            </p>
+            <p class="single-ingredients">
+              Ginger-Garlic Paste - 1 tbsp, Green Cardamom - 2-3 pods
+            </p>
+            <p class="single-ingredients">
+              Cinnamon Stick - 1 small piece, Turmeric Powder - 1/2 tsp
+            </p>
+          </div>
+          <div>
+            <h4>tools</h4>
+            <p class="single-tool">
+              Blender or Mixer
+            </p>
+            <p class="single-tool">
+              Large Pan or Kadhai
+            </p>
+            <p class="single-tool">
+              Spatula or Wooden Spoon
+            </p>
+            <p class="single-tool">
+              Knife and Cutting Board
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- --- end of main-- -->
+  <!-- --- footer-- -->
+  <footer class="page-footer">
+    <p>&copy; <span id="date"></span>
+      <span class="footer logo">SimplyRecipes</span>
+      Built by <a href="https://johnsmilga.com/">Coding Addict</a>
+
+    </p>
+  </footer>
+  <!-- --- end of footer-- -->
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
